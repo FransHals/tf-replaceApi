@@ -1,6 +1,6 @@
-data "aws_lambda_function" "lookup_replace" {
-    function_name = "lookupReplace-api"
-}
+# data "aws_lambda_function" "lookup_replace" {
+#     function_name = "lookupReplace-api"
+# }
 resource "aws_api_gateway_rest_api" "lookup_replace_api" {
     name = "lookupReplace"
     binary_media_types = ["UTF-8-encoded"]
